@@ -8,3 +8,8 @@ docker run -d --name cloudflared --restart unless-stopped --network host cloudfl
 
 
 4. Paste vào teminal là done. bao mượt
+
+
+Nếu cấu hình website chạy với aapanel.com thì:
+Trong cấu hình, ban đầu chọn type là HTTP localhost:80 rồi cài ssl
+Sau khi cài xong ssl bên trong aapanel thì đổi type thành HTTPS và localhost:443 Trong mục TLS bật No TLS Verify - ON là ok
